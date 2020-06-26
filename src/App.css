@@ -50,14 +50,59 @@
      left: 20px
   }
   .BW-BTN{
+    font-size: 20px ;
+    margin:5px;
     position: relative;
     top: 470px;
-    right:620px;
+    right:420px;
+    background-color: red;
+    color:black;
+    border: 1px solid red;
+    height: 30px;
   }
   .FW-BTN{
+    font-size: 20px ;
+    margin:5px;
     position: relative;
     top: 470px;
-    right:620px;
+    right:420px;
+    background-color: red;
+    color:black;
+    border: 1px solid red;
+    height: 30px;
+  }
+  .ATBW-BTN{
+     font-size: 20px ;
+    margin:5px;
+    position: relative;
+    top: 470px;
+    right:420px;
+    background-color: black;
+    color: red;
+    border: 1px solid black;
+    height: 30px;
+  }
+  .ATFW-BTN{
+     font-size: 20px ;
+    margin:5px;
+    position: relative;
+     top: 470px;
+    right:420px;
+    background-color: black;
+    color: red;
+    border: 1px solid black;
+    height: 30px;
+  }
+  .stop-BTN{
+    font-size: 20px ;
+    margin:5px;
+    position: relative;
+     top: 470px;
+     right:420px;
+     background-color:yellow;
+     color: red;
+    border: 1px solid yellow;
+    height: 30px;
   }
 @keyframes App-logo-spin {
   from {

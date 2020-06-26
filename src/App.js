@@ -12,7 +12,9 @@ import './App.css';
 
 
 const App=()=> {
-  const [controlStateIndex, setControlStateIndex] = useState(0);
+  const [controlStateIndex, setControlStateIndex] =useState(0);
+  const [autoControl, setAutoControl] = useState(false);
+  
   const images = [Trabant, Wartsberg, Gaz, Lada];
    
   return (
@@ -28,6 +30,8 @@ const App=()=> {
         images={images}
         controlStateIndex={controlStateIndex}
         setControlStateIndex={setControlStateIndex}
+        autoControl={autoControl}
+        setAutoControl={setAutoControl}
       />
     </div>
   );
